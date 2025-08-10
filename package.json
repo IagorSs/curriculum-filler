@@ -1,0 +1,17 @@
+{
+  "name": "curriculum-filler",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "tsc",
+    "start:prod": "node dist/index.js",
+    "start:dev": "ts-node src/index.ts"
+  },
+  "engines": {
+    "node": "^22.0.0"
+  },
+  "packageManager": "yarn@4.9.2",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
